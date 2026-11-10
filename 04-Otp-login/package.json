@@ -1,0 +1,24 @@
+{
+    "name": "express-redis-server",
+    "version": "1.0.0",
+    "description": "Simple Express and Redis server",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "node --watch src/index.js"
+    },
+    "dependencies": {
+        "express": "^4.21.2",
+        "ioredis":"^5.4.1",
+        "mongoose":"^8.2.1"
+
+    },
+    "keywords": [
+        "express",
+        "redis",
+        "node"
+    ],
+    "author": "",
+    "license": "ISC"
+}
